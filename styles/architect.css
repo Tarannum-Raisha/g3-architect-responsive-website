@@ -29,6 +29,7 @@
    .bg-light{
     background-color: rgba(255, 143, 14, 0.165);
    }
+   
     .btn-primary{
       background-color:#FF900E ;
       padding: 21px 24px 20px 25px;
@@ -167,6 +168,48 @@
   .sponspor-companies img{
     filter: grayscale(100);
   }
+
+  /* feactures section styles */
+
+  #features-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+  }
+   .feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+
+   .features{
+    gap: 140px;
+   }
+   .feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.197);
+    margin-bottom: 20px;
+   } 
+   #experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+    box-shadow: 5px 5px 5px #727272;
+   }
+   #experience-year{
+    font-size: 4rem;
+    font-weight:700;
+   }
+   /* footer style */
+   .footer{
+    background-color:#FFF4E7 ;
+    margin: 130px 240px ;
+    padding: 40px;
+    text-align: center;
+   }
     /* responsive media query */
     @media screen and (max-width:576px) {
        .navbar,
